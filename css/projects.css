@@ -1,0 +1,69 @@
+.menuCont .menuSpacer{
+        display:block;
+        height:10%;
+        width:100%;
+    }
+
+.pBox{
+    box-shadow:none;
+}
+
+.pBox:hover{
+    box-shadow:none;
+}
+
+.sumCont{
+
+}
+
+    .sumCont .sumTitle{
+        background:#FF4B66;
+    }
+
+        .sumCont .sumTitle h3{
+            padding-top:15px;
+            vertical-align: middle;
+            color:white;
+
+        }
+
+    .sumCont .sumP{
+        margin-top:20px;
+        margin: 0 auto;
+    }
+
+        .sumCont .sumP p{
+            text-align:left;
+            margin-top:10px;
+            padding-left:10px;
+            padding-right:10px;
+        }
+
+        .sumCont .sumP ul{
+            text-align: left;
+            padding-left:10px;
+            padding-right:10px;
+        }
+
+    .projectButA{
+        width:100%;
+        padding:18px;
+        border-radius: 15px;
+        text-decoration: none;
+        border: 1px solid #282828;
+        color:#282828;
+        font-size:1.6em;
+        transition:0.2s;
+        margin-top:20px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+    }
+
+    .projectButA:hover{
+        color:#282828;
+        transform: translate(-4px,-4px);
+        opacity:0.8;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+    }
+

@@ -1,0 +1,139 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>James Mete Stream Guess</title>
+        <meta name="description" content="Project Stream Guess by James Mete">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/projects.css">
+
+        <!--[if lte IE 9]>
+            <link href='css/animations-ie-fix.css' rel='stylesheet'>
+        <![endif]-->
+        <link rel="stylesheet" href="css/animations.css">
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <div class="animatedParent">
+            <div class="menuCont">
+                <div class="menuSpacer"></div>
+                <a href="http://www.jamesmete.com/projects">Projects</a>
+                <a href="http://www.jamesmete.com/projects/streamguess.html">StreamGuess</a>
+                <a href="http://www.jamesmete.com/projects/chordsheets.html">ChordSheets</a>
+                <a href="http://www.jamesmete.com/projects/timestamps.html">Timestamps</a>
+                <a href="http://www.jamesmete.com/projects/deepT.html">deepThorin</a>
+                <a href="http://www.jamesmete.com/projects/TWEET50.html">TWEET50</a>
+            </div>
+        </div>
+        <div class="mainCont .u-full-width ">
+            <div class="stickyHeader .u-full-width">
+                <div class="imgCont">
+                    <a href="http://www.jamesmete.com">
+                        <img class="jLogo" src="images/LogoMMRed.png" alt="JM Logo">
+                    </a>
+                </div>
+                <div class="hSpacer"></div>
+                <i class="bars fa fa-bars fa-2x animatedClick" data-target='clickExample' aria-hidden="true"></i>
+
+            </div>
+
+
+            <div class="animatedParent titleCont row">
+                <a href="http://www.jamesmete.com/projects">
+                    <h1 class="animated fadeInDownShort">Projects</h1>
+                </a>
+            </div>
+
+
+            <div class="animatedParent gridCont animateOnce container" data-sequence='500'>
+                    <div id="streamguessBox" class="animated fadeInUp pBox twelve columns" data-id='1'>
+
+                        <div class="pBack">
+                            <img src="images/Streamguess.png">
+                        </div>
+                        <div class="pTitle">StreamGuess</div>
+
+                    </div>
+            </div>
+
+            <div class="sumCont animatedParent container" data-sequence='500'>
+                <div class="row animated rotateInUpLeft" data-id='1'>
+                    <div class="sumTitle six columns">
+                        <h3>Summary</h3>
+                    </div>
+
+                    <div class="sumP six columns">
+                        <p>Streamguess is a game written using Angular 4, Javascript, HTML, and CSS.</p>
+                        <p>The goal of the game is to guess which streamer the presented clip belongs too.</p>
+                        <p>The game is split into 2 main parts:</p>
+                        <ul>
+                            <li><b>Front-End:</b> The Angular 4 app that serves up the data and acts as a fun and dynamic experience.</li>
+                            <li><b>Back-End:</b> A custom REST-API I built using mostly Node.JS. The API accesses data from a MongoDB database that is being updated via python scripts I wrote to query the Twitch API for popular clips. Due to wanting only the video links without any information that could give away who the streamer is, I had to query different elements of the Twitch API clip object and construct the url from combining info from different areas of the object.</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="row animated fadeInUp container" data-id='2'>
+                    <a class="projectButA twelve columns" href="http://www.jamesmete.com/streamguess">
+                        <div class="projectBut">Visit StreamGuess</div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        <div class="footy row container">
+            <div class="four columns">jmete3@gmail.com</div>
+
+            <div class="four columns">
+                <a href="https://www.facebook.com/JamesMete">
+                    <i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.instagram.com/jpmete/">
+                    <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+                </a>
+                <a href="https://twitter.com/Jmete">
+                    <i class="fa fa-twitter fa-lg" aria-hidden="true"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jmete/">
+                    <i class="fa fa-linkedin fa-lg" aria-hidden="true"></i>
+                </a>
+                <a href="https://github.com/Jmete">
+                    <i class="fa fa-github fa-lg" aria-hidden="true"></i>
+                </a>
+            </div>
+            <a href="http://www.jamesmete.com">
+                <div id="copyJ" class="four columns">&copy; James Mete 2017</div>
+            </a>
+        </div>
+
+
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script
+            src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+            integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+            crossorigin="anonymous">
+        </script>
+        <script src="js/main.js"></script>
+        <script src="js/css3-animate-it.js"></script>
+
+        <!-- Google Analytics-->
+    </body>
+</html>
